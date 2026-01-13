@@ -88,6 +88,7 @@
   <form id="recruitmentForm" class="card form">
     <input type="text" id="imieinazwisko" placeholder="Imię i nazwisko" required>
     <input type="number" id="wiek" placeholder="Wiek" required>
+    <input type="text" id="nrtel" placeholder="Numer telefonu" required>
 
     <select id="sanepid" required>
       <option value="">Czy posiadasz książeczkę sanepidowską?</option>
@@ -123,9 +124,11 @@
     <br>
     <b>Nr tel.:</b>
     <br>
+    • 070627 - Lissy Fox
+    <br>
     • 690050 - Matthew Rose-Harrington
     <br>
-    • 
+    • 206032 - Cody Rose
   </div>
 </section>
 
@@ -140,6 +143,7 @@ document.getElementById("recruitmentForm").addEventListener("submit", async func
   const data = {
     imieinazwisko: document.getElementById("imieinazwisko").value,
     wiek: document.getElementById("wiek").value,
+    nrtel: document.getElementById("nrtel").value,
     sanepid: document.getElementById("sanepid").value,
     powod: document.getElementById("powod").value
   };
@@ -161,6 +165,7 @@ document.getElementById("recruitmentForm").addEventListener("submit", async func
 
 </body>
 </html>
+
 
 
 
