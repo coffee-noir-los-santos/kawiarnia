@@ -249,8 +249,8 @@ footer {
 
 
 .form {
-  max-width: 720px;
-  margin: 0;
+  max-width: 520px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -286,3 +286,4 @@ footer {
 .form button:hover {
   opacity: 0.9;
 }
+
